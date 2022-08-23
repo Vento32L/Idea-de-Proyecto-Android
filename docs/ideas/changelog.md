@@ -1,3 +1,4 @@
 Log de cambios del proyecto
 
-nkjhgkj
+Se esta agregando una nueva idea para el desarrollarlo finalmente
+Log de cambios changelog.d
