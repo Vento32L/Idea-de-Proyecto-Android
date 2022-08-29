@@ -1,5 +1,8 @@
 Log de cambios del proyecto
 
+0.1.0
+Se esta corrgiendo la idea del proyecto
+
 0.0.2
 
 Se esta agregando una nueva idea para el desarrollarlo finalmente

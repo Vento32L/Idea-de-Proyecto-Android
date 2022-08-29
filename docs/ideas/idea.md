@@ -8,7 +8,7 @@ Esta idea de proyecto es una aplicación de chat basada principalmente en Androi
 
 La tecnología Bluetooth es excelente para facilitar la comunicación inalámbrica a bajo costo. En la actualidad, cada dispositivo Android tiene Bluetooth incorporado para la comunicación inalámbrica. En este proyecto, se aprovechará la API de código abierto de Android para construir un software de chat basado en Bluetooth que puede configurar una conexión entre teléfonos inteligentes a través de Bluetooth para facilitar el intercambio de mensajes entre los dispositivos.
 
-Idea 2: Crear una aplicacion de musica sencilla para Android
+Idea 2: Crear una aplicacion de musica sencilla para Android (MusicJMdi)
 
 Esta idea de proyecto es una aplicacion de musica sencilla para android.
 
