@@ -12,7 +12,7 @@ Idea 2: Crear una aplicacion de musica sencilla para Android
 
 Esta idea de proyecto es una aplicacion de musica sencilla para android.
 
-Esta aplicacion permite agregar las musicas de forma externa, ya que se va a crear una carpeta en donde se van agragando las musicas para asi poder acceder a ellas.
+Esta aplicacion permite agregar las musicas de forma externa, ya que se va a crear una carpeta en donde se van agragando las musicas para asi poder acceder a ellas, y esta tambien va a permitir la descarga de las canciones.
 
 Aplicaciones similares:
 -Google Play Music
