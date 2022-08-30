@@ -7,4 +7,5 @@ Restricciones técnicas
 
 Funcionalidades del usuario
 
-MusicJMdi permitir al usuario
+MusicJMdi permitir al usuario nm,n.dfnlkh-.mv.j
+
