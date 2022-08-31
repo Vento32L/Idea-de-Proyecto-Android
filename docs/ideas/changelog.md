@@ -3,12 +3,14 @@ LOG DE CAMBIO DEL PROYECTO
 0.1.0
 
 Agregado
+
 -Idea principal del pryecto
 -Los mockups
 -Descripción de las funcionalidades
 -Interfaz de usuario
 
 Cambiado
+
 -Idea del proyecto
 -Mockups coregidos
 
@@ -16,7 +18,7 @@ Agregado
 -features.md
 -ui-design.md
 -Imagenes
--
+
 
 0.0.2
 
