@@ -8,7 +8,7 @@ El diseño completo está disponible en: https://marvelapp.com/prototype/70g6273
 Cuando el usuario ingrese a la aplicación verá una lista de caciones agregadas o disponibles dentro del dispositivo.
 
 <br> 
-<img height="700" src="https://github.com/Vento32L/Idea-de-Proyecto-Android/blob/main/docs/ideas/Imagenes/ListCancionesReproducidas.png?raw=true"/> 
+<img height="700" src="https://github.com/Vento32L/Idea-de-Proyecto-Android/blob/main/docs/ideas/Imagenes/ListCancionesReproducidas.png" > 
 <br>
 
 2. Lista de albunes
