@@ -6,7 +6,7 @@ Restricciones técnicas
 
 2. No agregará canciones duplicadas.
 
-3. Las musicas agregadas serán alamcenadas de forma local en el dispositivo
+3. Las musicas agregadas serán alamcenadas de forma local en el dispositivo.
 
 Funcionalidades del usuario
 
