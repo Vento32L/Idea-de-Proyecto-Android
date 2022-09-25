@@ -1,13 +1,18 @@
 LOG DE CAMBIO DEL PROYECTO
+0.1.1
+
+Agregado:
+
+- En el entorno de Android Studio
 
 0.1.0
 
 Agregado
 
--Idea principal del pryecto
--Los mockups
--Descripción de las funcionalidades
--Interfaz de usuario
+- Idea principal del pryecto
+- Los mockups
+- Descripción de las funcionalidades
+- Interfaz de usuario
 
 Cambiado
 
