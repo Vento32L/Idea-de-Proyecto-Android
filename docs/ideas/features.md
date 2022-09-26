@@ -1,14 +1,14 @@
-FUNCIONALIDADES DE LA APLICACIÓN
+# FUNCIONALIDADES DE LA APLICACIÓN
 
 Restricciones técnicas
 
-1. Esta aplicación funcionará en disposistivos Android con sistema operativo versión 7 o superior.
+1. Esta aplicación funcionará en dispositivos Android con sistema operativo versión 7 o superior.
 
 2. No agregará canciones duplicadas.
 
 3. Las musicas agregadas serán alamcenadas de forma local en el dispositivo.
 
-Funcionalidades del usuario
+- Funcionalidades del usuario
 
 MusicJMdi permitirá al usuario ver las listas en reproducción, la lista de artistas y la lista de albunes a traves de una interfaz amigable, el usuario podrá:
 
