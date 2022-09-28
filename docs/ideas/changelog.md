@@ -1,9 +1,11 @@
 LOG DE CAMBIO DEL PROYECTO
-0.1.1
+
+0.2.0
 
 Agregado:
 
 - En el entorno de Android Studio
+- Ortografia Corregida
 
 
 0.1.0
