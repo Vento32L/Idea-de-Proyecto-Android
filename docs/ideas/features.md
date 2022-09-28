@@ -2,7 +2,7 @@
 
 Restricciones técnicas
 
-1. Esta aplicación funcionará en dispositivos Android con sistema operativo versión 7 o superior.
+1. Esta aplicación funcionará en dispositivos Android con sistema operativo versión 5 o superior.
 
 2. No agregará canciones duplicadas.
 
@@ -12,13 +12,15 @@ Restricciones técnicas
 
 MusicJMdi permitirá al usuario ver las listas en reproducción, la lista de artistas y la lista de albunes a traves de una interfaz amigable, el usuario podrá:
 
-1. Ver las listas de canciones disponibles o agregadas al reproductor de música. Esta, al entrar a la aplicación se muestra la pestaña está seleccionada de forma predeterminada.
+1. Al entrar a la aplicación, se abrirá toda la interfaz. 
 
-2. Ver las listas de los albunes disponibles o agregadas al reproductor de música.
+2. Ver las listas de canciones disponibles o agregadas al reproductor de música.
 
-3. Ver las listas de los artistas creados automaticamente cuando se van agregando las canciones. 
+3. Ver las listas de los albunes disponibles o agregadas al reproductor de música.
 
-4. Si haces clic en el símbolo de intercalación dentro del contenedor de la canción que se está reproduciendo (localizado en la parte inferior de la pantalla), este abrirá una bonita y detallada actividad relacionada con la canción que se está reproduciendo actualmente.
+4. Ver las listas de los artistas creados automaticamente cuando se van agregando las canciones. 
+
+5. Dar clic al símbolo de intercalación dentro del contenedor de la canción que se está reproduciendo (localizado en la parte inferior de la pantalla), este abrirá una bonita y detallada actividad relacionada con la canción que se está reproduciendo actualmente.
 
 6. Elegir las canciones a su antojo y hacer las reproducir.
 
