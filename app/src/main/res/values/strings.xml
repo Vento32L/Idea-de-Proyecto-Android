@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MusicJMdi</string>
+    <string name="titulo">Reproduciendo</string>
+    <string name="titulo2">Lista de canciones</string>
+</resources>
