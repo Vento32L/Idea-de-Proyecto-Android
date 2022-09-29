@@ -6,6 +6,11 @@ Agregado:
 
 - En el entorno de Android Studio
 - Ortografia Corregida
+- El proyecto a github, dentro del repositorio de IDEA-DE-PROYECTO-ANDROID
+
+Empezado
+
+- Creación de la UI dentro de Android Studio
 
 
 0.1.0
