@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:contentDescription="@string/app_name"
-    tools:context=".MainActivity">
+    tools:context=".MusicaReproduciendo">
 
     <ImageView
         android:id="@+id/imageView2"

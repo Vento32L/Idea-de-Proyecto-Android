@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHub/Idea-de-Proyecto-Android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/GitHub/Idea-de-Proyecto-Android/app/src/main/res/layout/activity_lista_canciones.xml" value="0.1" />
         <entry key="..\:/GitHub/Idea-de-Proyecto-Android/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
         <entry key="..\:/GitHub/Idea-de-Proyecto-Android/app/src/main/res/layout/activity_main2.xml" value="0.17074275362318841" />
+        <entry key="..\:/GitHub/Idea-de-Proyecto-Android/app/src/main/res/layout/activity_musica_reproduciendo.xml" value="0.1" />
+        <entry key="..\:/GitHub/Idea-de-Proyecto-Android/app/src/main/res/layout/activity_reproduciendo_musica.xml" value="0.2" />
         <entry key="..\:/Users/adminn/AndroidStudioProjects/MusicJMdi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2" />
         <entry key="..\:/Users/adminn/AndroidStudioProjects/MusicJMdi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2" />
         <entry key="..\:/Users/adminn/AndroidStudioProjects/MusicJMdi/app/src/main/res/layout/activity_main.xml" value="0.22" />
