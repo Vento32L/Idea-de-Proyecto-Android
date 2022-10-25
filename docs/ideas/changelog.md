@@ -1,6 +1,6 @@
 LOG DE CAMBIO DEL PROYECTO
 
-0.2.0
+0.3.0
 
 Corregido:
 
