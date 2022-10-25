@@ -16,7 +16,7 @@ Esta idea de proyecto es una aplicacion para la reproducción de las musica senc
 
 Pero hay que mencionar que actualmente ya existen diferentes tipos de reproductores de musica.
 
-Esta aplicación presentará una lista de canciones almacenados en nuestro dispositivo, para que asi puedan ser seleccionadas y reproducirlas. Ademas la aplicación tenrda controles para interactuar con la reproducción, la cual continuará reproduciendo cuando el usuario salga de la aplicación, mostrando una notificación mientras se siga reproduciendo la musica.
+En este proyecto se desarrollará una aplicación de música que tiene lista de canciones almacenados en nuestro dispositivo, para que asi puedan ser seleccionadas y reproducirlas. Ademas la aplicación tenrda controles para interactuar con la reproducción, la cual continuará reproduciendo cuando el usuario salga de la aplicación, mostrando una notificación mientras se siga reproduciendo la musica.
 
 Aplicaciones similares:
 -Google Play Music
