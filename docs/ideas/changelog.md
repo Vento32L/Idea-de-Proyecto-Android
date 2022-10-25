@@ -2,6 +2,13 @@ LOG DE CAMBIO DEL PROYECTO
 
 0.2.0
 
+Corregido:
+
+- fectures.md
+- idea.md
+
+0.2.0
+
 Agregado:
 
 - En el entorno de Android Studio
