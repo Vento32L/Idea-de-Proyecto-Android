@@ -48,15 +48,18 @@ class MainActivity : AppCompatActivity() {
     fun playClicked(v: View){
         if(!mp.isPlaying){
             mp.start()
+            controllers[ci.play].setIconResource(R.drawable.ic_baseline_pause_48)
         }
         else{
             mp.pause()
+            controllers[ci.play].setIconResource(R.drawable.ic_baseline_play_arrow_48)
         }
     }
 
     fun stopClicked(v: View){
         if(mp.isPlaying){
             mp.pause()
+            controllers[ci.play].setIconResource(R.drawable.ic_baseline_play_arrow_48)
         }
         mp.seekTo(0)
     }
