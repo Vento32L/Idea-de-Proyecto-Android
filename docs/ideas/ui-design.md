@@ -1,7 +1,6 @@
 DISEÑO INTERFAZ DE USUARIO
-
-La interfaz de usuario de la aplicación MusicJMdi está inspirada en las siguientes palntillas: https://www.freepik.es/vector-gratis/tema-plantilla-aplicacion-reproductor-musica_7747751.htm, esta es una plantilla de interfaz de usuario para aplicaciones similares de reproducción de música. 
-El diseño completo está disponible en: https://marvelapp.com/prototype/70g6273. A continuación se presentan las principales pantallas de la aplicación:
+ 
+El diseño completo está disponible en: https://marvelapp.com/prototype/72bj3h0/screen/89279456. A continuación se presentan las principales pantallas de la aplicación:
 
 1. Lista de canciones
 
