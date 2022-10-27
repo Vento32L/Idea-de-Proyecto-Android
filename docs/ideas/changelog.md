@@ -2,6 +2,10 @@ LOG DE CAMBIO DEL PROYECTO
 
 0.3.0
 
+Cambios:
+
+- AndroidStudio
+
 Corregido:
 
 - fectures.md
