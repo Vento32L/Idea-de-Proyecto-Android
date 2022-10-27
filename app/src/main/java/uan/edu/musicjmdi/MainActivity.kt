@@ -107,13 +107,12 @@ class MainActivity : AppCompatActivity() {
     
     fun refreshSong(){
         mp.reset()
-        assets.openFd(cancionActual)
+        val fd = assets.openFd(cancionActual)
         mp.setDataSource(
             fd.fileDescriptor,
             fd.startOffset,
             fd.length
         )
-        fd.close()
         mp.prepare()
         playClicked(controllers[ci.play])
         nombreCancion.text = cancionActual
