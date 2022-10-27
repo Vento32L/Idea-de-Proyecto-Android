@@ -19,27 +19,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Anterior" />
+            app:icon="@drawable/ic_baseline_skip_previous_48"
+            app:iconGravity="textEnd" />
 
         <Button
             android:id="@+id/stop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Stop" />
+            app:icon="@drawable/ic_baseline_stop_48"
+            app:iconGravity="textEnd" />
 
         <Button
             android:id="@+id/play"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Play" />
+            app:icon="@drawable/ic_baseline_play_arrow_48"
+            app:iconGravity="textEnd" />
 
         <Button
             android:id="@+id/next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Siguiente" />
+            app:icon="@drawable/ic_baseline_skip_next_48"
+            app:iconGravity="textEnd" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
