@@ -3,16 +3,15 @@ package uan.edu.musicjmdi
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-//import android.view.TextureView
+import android.view.TextureView
 import android.view.View
-//import android.widget.TextView
+import android.widget.TextView
 import com.google.android.material.button.MaterialButton
 
 class MainActivity : AppCompatActivity() {
 
     val fd by lazy {
-        //assets.openFd(cancionActual)
-        assets.openFd("Mundo Nuevo - Memo el Mc (Audio)(MP3_128K).mp3")
+        assets.openFd(cancionActual)
     }
 
     val mp by lazy {
@@ -40,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         val next = 3
     }
 
-    /*val nombreCancion by lazy {
+    val nombreCancion by lazy {
         findViewById<TextView>(R.id.nombreCancion)
     }
 
@@ -61,36 +60,62 @@ class MainActivity : AppCompatActivity() {
             cancionActual = canciones[v]
         }
 
-    lateinit var cancionActual: String*/
+    lateinit var cancionActual: String
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         controllers[ci.play].setOnClickListener(this::playClicked)
-        controllers[ci.play].setOnClickListener(this::stopClicked)
-        //cancionActual = canciones[cancionActualIndex]
-        //nombreCancion.text = cancionActual
+        controllers[ci.stop].setOnClickListener(this::stopClicked)
+        controllers[ci.prev].setOnClickListener(this::prevClicked)
+        controllers[ci.next].setOnClickListener(this::nextClicked)
+        cancionActual = canciones[cancionActualIndex]
+        nombreCancion.text = cancionActual
 
     }
 
     fun playClicked(v: View){
         if(!mp.isPlaying){
             mp.start()
-            //controllers[ci.play].setIconResource(R.drawable.ic_baseline_pause_48)
-            //nombreCancion.visibility = View.VISIBLE
+            controllers[ci.play].setIconResource(R.drawable.ic_baseline_pause_48)
+            nombreCancion.visibility = View.VISIBLE
         }
         else{
             mp.pause()
-            //controllers[ci.play].setIconResource(R.drawable.ic_baseline_play_arrow_48)
+            controllers[ci.play].setIconResource(R.drawable.ic_baseline_play_arrow_48)
         }
     }
 
     fun stopClicked(v: View){
         if(mp.isPlaying){
             mp.pause()
-           // controllers[ci.play].setIconResource(R.drawable.ic_baseline_play_arrow_48)
-            //nombreCancion.visibility = View.INVISIBLE
+            controllers[ci.play].setIconResource(R.drawable.ic_baseline_play_arrow_48)
+            nombreCancion.visibility = View.INVISIBLE
         }
         mp.seekTo(0)
+    }
+
+    fun nextClicked(v: View){
+        cancionActualIndex++
+        refreshSong()
+    }
+
+    fun prevClicked(v: View){
+        cancionActualIndex--
+        refreshSong()
+    }
+    
+    fun refreshSong(){
+        mp.reset()
+        assets.openFd(cancionActual)
+        mp.setDataSource(
+            fd.fileDescriptor,
+            fd.startOffset,
+            fd.length
+        )
+        fd.close()
+        mp.prepare()
+        playClicked(controllers[ci.play])
+        nombreCancion.text = cancionActual
     }
 }
