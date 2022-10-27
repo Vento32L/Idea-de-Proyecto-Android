@@ -2,9 +2,10 @@ LOG DE CAMBIO DEL PROYECTO
 
 0.3.0
 
-Cambios:
+Cambios en:
 
 - AndroidStudio
+- ui-design.md
 
 Corregido:
 
