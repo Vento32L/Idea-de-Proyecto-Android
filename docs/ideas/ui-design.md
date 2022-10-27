@@ -10,33 +10,25 @@ Cuando el usuario ingrese a la aplicación verá una lista de caciones agregadas
 <img height="700" src="https://github.com/Vento32L/Idea-de-Proyecto-Android/blob/main/docs/ideas/Imagenes/ListaCanciones.png" > 
 <br>
 
-2. Lista de albunes
-Cuando el usuario ingrese a la aplicación verá una lista de albunes de las duferentes canciones dentro del dispositivo.
+2. Musica en reproducción
+Cuando el usuario da clic en una de las canciones, la canción se reproducirá.
 
 <br> 
-<img height="700" src="https://github.com/Vento32L/Idea-de-Proyecto-Android/blob/main/docs/ideas/Imagenes/ListAlbum.png" > 
+<img height="700" src="https://github.com/Vento32L/Idea-de-Proyecto-Android/blob/main/docs/ideas/Imagenes/MusicaReproducci%C3%B3n.png" > 
 <br>
 
-3. Lista de artistas
-Cuando el usuario ingrese a la aplicación verá una lista de artistas con sus respectivas canciones dentro del dispositivo.
+3. Siguiente Música
+El usuario da clic en el botón siguiente para reproducir la siguiente música
 
 <br> 
-<img height="700" src="https://github.com/Vento32L/Idea-de-Proyecto-Android/blob/main/docs/ideas/Imagenes/ListArts.png" > 
+<img height="700" src="https://github.com/Vento32L/Idea-de-Proyecto-Android/blob/main/docs/ideas/Imagenes/SiguienteM%C3%BAsica.png" > 
 <br>
 
-4. Lista de Reproducciones
-Cuando el usuario ingrese a la aplicación verá una lista de reproducciones y las carpetas  dentro del dispositivo.
+4. Música Atrás
+El usuario da clic en el botón atrás para reproducir la música anterior
 
 <br> 
-<img height="700" src="https://github.com/Vento32L/Idea-de-Proyecto-Android/blob/main/docs/ideas/Imagenes/ListReproduc%C3%B3n.png" > 
-<br>
-
-5. Pantalla de músicas en reproducción
-
-Al seleccionar una música, el usuario verá la pantalla de reproducción.
-
-<br> 
-<img height="700" src="https://github.com/Vento32L/Idea-de-Proyecto-Android/blob/main/docs/ideas/Imagenes/PantallaEnReproducci%C3%B3n.png" > 
+<img height="700" src="https://github.com/Vento32L/Idea-de-Proyecto-Android/blob/main/docs/ideas/Imagenes/M%C3%BAsicaAtr%C3%A1s.png" > 
 <br>
 
 
