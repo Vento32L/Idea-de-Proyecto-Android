@@ -11,7 +11,7 @@ import com.google.android.material.button.MaterialButton
 class MainActivity : AppCompatActivity() {
 
     val fd by lazy {
-        assets.openFd("Mundo Nuevo - Memo el Mc (Audio)(MP3_128K).mp3")
+        assets.openFd(cancionActual)
     }
 
     val mp by lazy {
@@ -42,13 +42,32 @@ class MainActivity : AppCompatActivity() {
     val nombreCancion by lazy {
         findViewById<TextView>(R.id.nombreCancion)
     }
+
+    val canciones by lazy {
+        val nombreFicheros = assets.list("")?.toList() ?: listOf()
+        nombreFicheros.filter { it.contains(".mp3") }
+    }
+
+    var cancionesActualIndex = 0
+        set(value) {
+            var v = if(value == -1){
+                canciones.size-1
+            }
+            else{
+                value % canciones.size
+            }
+            field = v
+            cancionActual = canciones[v]
+        }
+
+    lateinit var cancionActual: String
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         controllers[ci.play].setOnClickListener(this::playClicked)
         controllers[ci.play].setOnClickListener(this::stopClicked)
-        nombreCancion.text = "Mundo Nuevo - Memo el Mc (Audio)(MP3_128K).mp3"
+        cancionActual = canciones[cancionesActualIndex]
 
     }
 
