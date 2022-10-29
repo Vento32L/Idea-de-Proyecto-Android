@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import uan.edu.musicjmdi.databinding.RowSongBinding
 
 class AdaptadorCanciones (val elementos:List<String>, val con: MainActivity):
-    RecyclerView.Adapter<AdaptadorCanciones.ViewHolder>()
+    RecyclerView.Adapter<AdaptadorCanciones.ViewHolder>(){
 
     class ViewHolder(val bind: RowSongBinding)
         :RecyclerView.ViewHolder(bind.root)
@@ -16,7 +16,20 @@ class AdaptadorCanciones (val elementos:List<String>, val con: MainActivity):
         return ViewHolder(v)
     }
 
-    override fun 
+    override fun onBindViewHolder(holder: ViewHolder, position: Int){
+        val elem = elementos[position]
+        with(holder.bind){
+            rowListaCanciones.setOnClickListener{
+                con.cancionActualIndex = position
+                con.refreshSong()
+            }
+        }
+    }
+
+    override fun getItemCount(): Int {
+        return elementos.size
+    }
+}
 
 
 

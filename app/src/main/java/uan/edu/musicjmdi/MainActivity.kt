@@ -74,6 +74,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    override fun onStart() {
+        super.onStart()
+    }
+
     fun playClicked(v: View){
         if(!mp.isPlaying){
             mp.start()
