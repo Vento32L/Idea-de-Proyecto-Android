@@ -19,6 +19,7 @@ class AdaptadorCanciones (val elementos:List<String>, val con: MainActivity):
     override fun onBindViewHolder(holder: ViewHolder, position: Int){
         val elem = elementos[position]
         with(holder.bind){
+            rowNombreCancion.text = elem
             rowListaCanciones.setOnClickListener{
                 con.cancionActualIndex = position
                 con.refreshSong()
