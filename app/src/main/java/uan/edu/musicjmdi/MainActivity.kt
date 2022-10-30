@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.TextureView
 import android.view.View
 import android.widget.TextView
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.button.MaterialButton
 
 class MainActivity : AppCompatActivity() {
@@ -76,6 +78,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
+        findViewById<RecyclerView>(R.id.rv).apply {
+            adapter = AdaptadorCanciones(canciones, this@MainActivity)
+            layoutManager = LinearLayoutManager(this@MainActivity)
+        }
     }
 
     fun playClicked(v: View){
