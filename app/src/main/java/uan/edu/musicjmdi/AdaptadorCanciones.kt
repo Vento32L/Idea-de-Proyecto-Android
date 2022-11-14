@@ -9,6 +9,8 @@ import uan.edu.musicjmdi.databinding.RowSongBinding
 class AdaptadorCanciones (val elementos:List<String>, val con: MainActivity):
     RecyclerView.Adapter<AdaptadorCanciones.ViewHolder>(){
 
+    var selected = -1
+
     class ViewHolder(val bind: RowSongBinding)
         :RecyclerView.ViewHolder(bind.root)
 
@@ -21,10 +23,17 @@ class AdaptadorCanciones (val elementos:List<String>, val con: MainActivity):
         val elem = elementos[position]
         with(holder.bind){
             rowNombreCancion.text = elem
+            if(position==selected){
+                rowListaCanciones.setBackgroundColor(Color.LTGRAY)
+            }
+            else{
+                rowListaCanciones.setBackgroundColor(Color.WHITE)
+            }
             rowListaCanciones.setOnClickListener{
                 con.cancionActualIndex = position
                 con.refreshSong()
-                rowListaCanciones.setBackgroundColor(Color.LTGRAY)
+                //rowListaCanciones.setBackgroundColor(Color.LTGRAY)
+                notifyDataSetChanged()
             }
         }
     }
