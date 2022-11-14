@@ -32,6 +32,7 @@ class AdaptadorCanciones (val elementos:List<String>, val con: MainActivity):
             rowListaCanciones.setOnClickListener{
                 con.cancionActualIndex = position
                 con.refreshSong()
+                selected = position
                 //rowListaCanciones.setBackgroundColor(Color.LTGRAY)
                 notifyDataSetChanged()
             }
