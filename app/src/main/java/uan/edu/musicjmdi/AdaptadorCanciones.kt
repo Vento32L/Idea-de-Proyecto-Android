@@ -1,5 +1,6 @@
 package uan.edu.musicjmdi
 
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -23,6 +24,7 @@ class AdaptadorCanciones (val elementos:List<String>, val con: MainActivity):
             rowListaCanciones.setOnClickListener{
                 con.cancionActualIndex = position
                 con.refreshSong()
+                rowListaCanciones.setBackgroundColor(Color.LTGRAY)
             }
         }
     }
