@@ -2,7 +2,7 @@ DISEÑO INTERFAZ DE USUARIO
  
 El diseño completo está disponible en: https://marvelapp.com/prototype/72bj3h0/screen/89279456. A continuación se presentan las principales pantallas de la aplicación:
 
-1. Lista de canciones
+1. Lista de canciones  
 
 Cuando el usuario ingrese a la aplicación verá una lista de caciones agregadas o disponibles dentro del dispositivo.
 
