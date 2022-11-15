@@ -4,7 +4,7 @@ LOG DE CAMBIO DEL PROYECTO
 Cambios y actualizaciones en: 
  - features.md
  - Terminada la aplicación en AndroidStudio
- -    
+ - carpeta poster y poster.md
 
 0.3.0
 
