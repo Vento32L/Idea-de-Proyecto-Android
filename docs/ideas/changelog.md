@@ -1,4 +1,7 @@
 LOG DE CAMBIO DEL PROYECTO
+0.4.0
+
+Cambios y actualizaciones en:    
 
 0.3.0
 
