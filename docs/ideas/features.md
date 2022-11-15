@@ -23,3 +23,7 @@ MusicJMdi permitirá al usuario ver las listas en reproducción, la lista de art
 5. Cambiar la musica con los iconos de adelante y atrás.
 
 10. Pausar las canciones en cualquier momento.
+
+¿Cómo agregar canciones a la aplicación?
+
+- Para agregar canciones dentro de la aplicación se tiene que copiar by pegar las canciones hacia la carpeta assets 
