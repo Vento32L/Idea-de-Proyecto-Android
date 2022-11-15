@@ -26,4 +26,4 @@ MusicJMdi permitirá al usuario ver las listas en reproducción, la lista de art
 
 ¿Cómo agregar canciones a la aplicación?
 
-- Para agregar canciones dentro de la aplicación se tiene que copiar by pegar las canciones hacia la carpeta assets 
+- Para agregar canciones dentro de la aplicación se tiene que copiar by pegar las canciones hacia la carpeta assets.
