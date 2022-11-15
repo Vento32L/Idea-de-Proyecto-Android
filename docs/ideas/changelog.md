@@ -1,7 +1,10 @@
 LOG DE CAMBIO DEL PROYECTO
 0.4.0
 
-Cambios y actualizaciones en:    
+Cambios y actualizaciones en: 
+ - features.md
+ - Terminada la aplicación en AndroidStudio
+ -    
 
 0.3.0
 
